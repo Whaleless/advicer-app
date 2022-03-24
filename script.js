@@ -29,7 +29,7 @@ let advicer = function() {
 }
 
 let insulter = function () {
-    let insult = fetch('https://evilinsult.com/generate_insult.php?lang=en&amp;type=json', {
+    let insult = fetch('https://cors-anywhere.herokuapp.com/https://evilinsult.com/generate_insult.php?lang=en&amp;type=json', {
         method: 'GET',
         cache: 'no-cache',
         accept: 'application/json',
